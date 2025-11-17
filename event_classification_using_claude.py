@@ -31,7 +31,7 @@ from langgraph.graph import StateGraph, END
 
 # --- KEY SETUP ---
 # Use env/Colab secrets (DON'T hardcode)
-os.environ["ANTHROPIC_API_KEY"] = "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"  # <-- set this securely (e.g., in Colab: Settings → Secrets)
+os.environ["ANTHROPIC_API_KEY"] = ""  # <-- set this securely (e.g., in Colab: Settings → Secrets)
 
 # --- 3) Schemas ---
 class Event(BaseModel):
